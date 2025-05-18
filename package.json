@@ -1,13 +1,15 @@
 {
   "name": "canadian-donation-tax-credit-calculator",
   "version": "1.0.0",
+  "homepage": "https://danielabar.github.io/canadian-donation-tax-credit-calculator",
   "description": "A simple, client-side calculator to estimate the federal and provincial tax credits for charitable donations in Canada. Supports multiple years and provinces.",
   "main": "index.js",
   "scripts": {
     "lint": "eslint . --ext .js",
     "format": "prettier --write .",
     "lint:fix": "eslint . --ext .js --fix",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d ./"
   },
   "author": "Daniela Baron",
   "license": "MIT",
@@ -16,6 +18,7 @@
     "@eslint/js": "^9.27.0",
     "eslint": "^9.27.0",
     "eslint-config-prettier": "^10.1.5",
+    "gh-pages": "^6.3.0",
     "globals": "^16.1.0",
     "prettier": "^3.5.3"
   }
