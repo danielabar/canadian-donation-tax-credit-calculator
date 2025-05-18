@@ -1,0 +1,22 @@
+{
+  "name": "canadian-donation-tax-credit-calculator",
+  "version": "1.0.0",
+  "description": "A simple, client-side calculator to estimate the federal and provincial tax credits for charitable donations in Canada. Supports multiple years and provinces.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --ext .js",
+    "format": "prettier --write .",
+    "lint:fix": "eslint . --ext .js --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniela Baron",
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.3.1",
+    "@eslint/js": "^9.27.0",
+    "eslint": "^9.27.0",
+    "eslint-config-prettier": "^10.1.5",
+    "globals": "^16.1.0",
+    "prettier": "^3.5.3"
+  }
+}
